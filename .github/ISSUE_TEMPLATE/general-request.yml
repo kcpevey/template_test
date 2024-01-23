@@ -1,5 +1,5 @@
 name: "General request 💡"
-description: "A general template for many kinds of issues and question."
+description: "A general template for many kinds of issues and questions."
 title: "<title>"
 labels: ["needs: triaging 🚦"]
 
