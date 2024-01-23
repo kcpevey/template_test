@@ -1,0 +1,51 @@
+name: "Feature request ✨"
+description: "Create a feature request"
+title: "[ENH] - <title>"
+labels: ["type: enhancement 💅","nebari"]
+projects: ["quansight/48"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please take a moment to thoroughly describe your request.
+
+  - type: textarea
+    attributes:
+      label: Feature description
+      description: |
+        Describe what you are proposing. Provide as much context as possible and link to related issues and/or pull requests.
+        This section should contain "what" you are proposing.
+        Are you having any problems? Briefly describe what your painpoints are. For example: "I'm always frustrated when ..."
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Value and/or benefit
+      description: |
+        What is the value of adding this feature, and who will benefit from it? Include any information that could help us prioritize the issue.
+        This section should contain "why" this issue should be resolved.
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: Priority
+      description: What is the priority level of this request?
+      options:
+        - High (I need this asap)
+        - Medium (I need this soon, but nothing is on fire)
+        - Low (I'd like this, but its not blocking anything)
+      default: 2
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Anything else?
+      description: |
+        Link to an open source issue? References? Anything that will give us more context about the issue you are encountering!
+        Tip: You can attach images or log files by clicking this area to highlight it and then dragging files in.
+    validations:
+      required: false
