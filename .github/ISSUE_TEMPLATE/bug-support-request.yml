@@ -7,8 +7,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Please fill out each section below. This info allows maintainers to diagnose (and fix!) your issue as
-        quickly as possible.
+        Please fill out each section below. This info allows maintainers to diagnose (and fix!) your issue as quickly as possible.
 
   - type: textarea
     attributes:
@@ -64,8 +63,7 @@ body:
     attributes:
       label: References and broader context
       description: |
-        References are crucial to keeping issues adequetly cross-referenced. If there is an Open Source issue, please provide
-        the link here as well. 
+        References are crucial to keeping issues adequetly cross-referenced. If there is an Open Source issue, please provide the link here as well. 
         
         Any additional information on the context of this request is greatly appreciated! 
         
